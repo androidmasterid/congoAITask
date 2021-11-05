@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: #d9d8d8; */
+}
+body {
+    background-color: #757474 !important;
+}
+.mainBOx {
+    background-color: #fff;
+    width: 45%;
+    height: 40em;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 24px;
+}
+.topBar {
+    background-color: #f5821f;
+    width: 100%;
+    height: 50%;
+    border-radius: 23px 23px 0px 0px;
+}
+.topBarInnerText {
+    padding: 2% 11%;
+    color: white;
+}
+.topBarInnerText h3 {
+    font-weight: 600;
+}
+.popUpBox {
+    width: 90%;
+    border: 1px solid #bfbaba;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+    bottom: 20%;
+}
+.circle {
+    height: 4em;
+    width: 4em;
+    background: #ff7600;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    top: -7%;
+    left: 7%;
+}
+
+.d-flex img {
+    width: 20px;
+    height: 20px;
+    margin: 0% 5%;
+}
+.circle img {
+    width: 50%;
+}
+.btn.btn-outline-secondary.btnn img {
+    width: 7%;
+    margin: 0% 3%;
+}
+.innerOptionsBox {
+    margin: 13% 4% 5% 5%;
+}
+.textWithimg {
+    display: flex;
+    flex-direction: row;
+}
+.textWithimg img {
+    width: 14px;
+    margin-left: 4%;
+}
+.topBarInnerText h6 {
+    font-weight: 600;
+    font-size: 19px;
+}
+.topBarInnerText h3 {
+    font-weight: 400;
+}
+.textWithimg span {
+    font-weight: 500;
+}
+.queLogo {
+    width: 20px;
+    height: 20px;
+    background-color: #fdf5e5;
+    justify-content: center;
+    border-radius: 100px;
+    margin-left: 4%;
+    align-items: center;
+    display: flex;
+}
+.option {
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    border-radius: 7px;
+    display: flex;
+    margin: 2% 0%;
+    cursor: pointer;
+    padding: 3% 0%;
+    font-display: row;
+    justify-content: normal;
+    box-shadow: 0px 0px 8px rgb(0 0 0 / 5%);
+    align-items: center;
+}
+.outerDot {
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    display: flex;
+    margin: 0% 2%;
+    background-color: #ffead9;
+    align-items: center;
+    justify-content: center;
+}
+.innerDot {
+    width: 11px;
+    height: 11px;
+    background-color: #ff7600;
+    border-radius: 100px;
+}
+.option span {
+    font-size: 12px;
+    font-weight: 500;
+}
+img.chatLogo {
+    width: 25px;
+}
+.btnn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btnn a {
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    border: 1px solid #a6a3a3;
+    border-radius: 26px;
+    padding: 2%;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+    margin: 6%;
+    font-weight: 600;
+}
+.btnn a:hover {
+    color: white;
+    background: #f5821f;
+    text-decoration: none;
+}
+.btnn img {
+    margin: 1% 3%;
+    width: 1.3em;
+}
+

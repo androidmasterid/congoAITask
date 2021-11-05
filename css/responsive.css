@@ -1,0 +1,13 @@
+@media only screen and (max-width: 500px) {
+    body {
+        /* background-color: pink !important; */
+    }
+
+    .mainBOx {
+        width: 100%;
+        margin-top: 0%;
+    }
+    .container {
+        padding: 0px !important;
+    }
+}
